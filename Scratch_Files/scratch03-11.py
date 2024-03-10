@@ -1,9 +1,7 @@
-# 3 Display planets
-# Loops
-planets = ("Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune")
-for planet in planets:
-    print(planet)
+# Iterate through a string
+# 
+singular_words = ["Student", "teacher", "room",  "book"]
 
-# %%
-    print("hello world")
-# %%
+for word in singular_words:
+    print (word + "s")
+
