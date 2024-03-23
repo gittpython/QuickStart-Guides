@@ -9,5 +9,8 @@ try:
 except Exception as e:
     print("Sorry, a problem occured dividing the numbers.")
     print("Error details: " + str(e))
-    
+
+finally:
+    print("But still, we tried!")
+        
 print("All done!")
