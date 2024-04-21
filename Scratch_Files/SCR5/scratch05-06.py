@@ -7,5 +7,6 @@ def average(*numbers):
         sum += n
         print("The sum now is " + str(sum))
     return sum / len(numbers)
+print()
 # Use yiur newly minted function
 print("The average is: " + str(average(10, 40, 80, 74, 16, 42, 12, 6,)) )   
