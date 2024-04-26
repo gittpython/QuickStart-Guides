@@ -8,7 +8,8 @@ while bottles >0:
     bottles -= 1
     print("Take one down, pass it around,")
     print(str(bottles) + " bottles of beer on the wall.\n")
-    
+print("Take one down, pass it wround,") 
+print(str(bottles) + " bottles of beer on the wall.")  
     
 
           

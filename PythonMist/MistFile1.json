@@ -1,0 +1,20 @@
+[
+	{
+		"mac": "d420b080516d",
+		"serial": "A0052190206A2",
+		"model": "AP41",
+		"sku": "AP41-US",
+		"hw_rev": "F11",
+		"type": "ap",
+		"magic": "XXXXXXXXXXXXXXX",
+		"name": "SaltLakeHQ-AP6d",
+		"jsi": false,
+		"org_id": "9777c1a0-6ef6-11e6-8bbf-02e208b2d34f",
+		"site_id": "1505f5d6-5366-4ca2-a9e2-2c6b805e5a47",
+		"created_time": 1585754725,
+		"modified_time": 1649358858,
+		"id": "00000000-0000-0000-1000-d420b080516d",
+		"deviceprofile_id": null,
+		"connected": true
+	}
+]
