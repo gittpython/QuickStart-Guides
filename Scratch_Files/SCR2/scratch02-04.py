@@ -15,4 +15,4 @@ Customer3 = {
     "name": "Robert",
     "name": "John"
 }
-print(Customer3)
+print(Customer1)
