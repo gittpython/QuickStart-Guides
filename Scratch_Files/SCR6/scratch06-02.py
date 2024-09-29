@@ -6,7 +6,7 @@ class Customer:
         self.city = city
         
     def greet(self):
-        print("Hello, " + self.name + "!")
+        print("Hello, " + self.name + "! defined")
         
 # Create three opbects based on the Customer classs
 c1 = Customer("Sarah", "Alanta")
