@@ -1,0 +1,17 @@
+Setup Virtual Environment
+ modules etc.
+
+Create a directory XXX
+cd to XXX
+Keep all the files in XXX for better tracking
+
+command: python -m venv "virtual-name"
+
+
+Activate the environment
+"source virtual-name/Scripts/activate"
+
+Notice (virtual-name)
+
+
+"deactivate" to stop

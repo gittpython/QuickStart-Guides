@@ -1,0 +1,21 @@
+from tkinter import * #Needed
+
+
+# Istance
+root = Tk()
+root.title("HelloWorld")
+root.geometry("640x480")
+
+
+variable = Label(root, test = "Hello World") # create it
+variable.pack() # put it on screen center
+
+variable2 = Label(root, test = "Hello World 2nd Line") # create it
+variable2.pack() # put it on screen center
+
+code here
+
+
+
+
+root.mainloop()
