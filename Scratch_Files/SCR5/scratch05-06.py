@@ -1,4 +1,4 @@
-# Define the average funtion
+# Define the average funtion Page 101
 def average(*numbers):
     sum = 0
     for n in numbers:
