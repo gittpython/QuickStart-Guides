@@ -1,4 +1,6 @@
-# Sets No duplicates and unordered 
+# Sets No duplicates and unordered "{}"
+# Page 41
+
 customers = {"James Smith", 
              "Andrea Richards", 
              "Sam Sharp", 

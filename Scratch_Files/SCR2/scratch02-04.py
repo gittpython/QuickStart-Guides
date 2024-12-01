@@ -1,4 +1,4 @@
-#Dictionaries
+#Dictionaries Page 43
 Customer1 = {
     "name": "James Smith",
     "age": 24,
@@ -15,4 +15,4 @@ Customer3 = {
     "name": "Robert",
     "name": "John"
 }
-print(Customer1)
+print(Customer2)
