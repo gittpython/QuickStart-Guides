@@ -3,8 +3,10 @@
 # Page 128
 # CCS-05 PAGE 109
 # Import items from the random module to generate weather
+import random
 from random import seed
 from random import randint
+
 
 def welcome():
     print("ClydeBank Coffee Shop Simulator 400, Version 1.00")
@@ -16,9 +18,9 @@ def prompt(display="Please inout a string", require=True):
         s = False
         while not s:
             s = input(display + " ")
-        else:
+    else:
             s = input(display + " ")
-        return s
+    return s
         
 def convert_to_float(s):
     # If conversion fails, assign 0 to it
@@ -51,6 +53,9 @@ class CoffeeShopSimoulator:
         # Cash on hand at start
         self.cash = 100.00
         
+        # Inventory at start
+        self.coffee_inventory = 100
+        
         # Sales list
         self.sales = []
         
@@ -58,7 +63,7 @@ class CoffeeShopSimoulator:
         self.temps = self.make_temp_distribution()
         
     def run(self):
-        print("\nOk, Let's get started, have fun!")
+        print("\nOk, Let's get started. Have fun!")
         
         # The main game loop
         running = True
@@ -77,6 +82,9 @@ class CoffeeShopSimoulator:
             
             # Get advertising spend
             print("\mYou can buy advertising to help promote the sales")
+            advertising = prompt("How much do you want to spend on advertising (0 for none)?", False)
+            
+            # Convert advertising into a float
             advertising = convert_to_float(advertising)
             
             # Deduct advertising form cash on hand
