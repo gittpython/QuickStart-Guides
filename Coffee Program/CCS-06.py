@@ -1,7 +1,7 @@
 #ClydeBank Coffee Shop Simulator 4000
 #Copyright 2024 (c) ClydeBank Media, All Rights Reserved.
 # Page 128
-# CCS-05 PAGE 109
+# 
 # Import items from the random module to generate weather
 import random
 from random import seed
