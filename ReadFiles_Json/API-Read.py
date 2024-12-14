@@ -3,6 +3,10 @@ import requests
 import json
 url = "http://api.open-notify.org/astros.json"
 r = requests.get(url)
+<<<<<<< HEAD
+ic(r.json())
+
+=======
 print(r.text)
 
 for item in r:
@@ -14,3 +18,4 @@ for item in r:
 # Tuples()
 # List[]
 # Disctionary {}
+>>>>>>> edd9ccceb1b9afaf1b104eff73aead2aeec04290
